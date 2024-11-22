@@ -23,32 +23,32 @@
 <body>
 
 <!-- Toolbar -->
-<div class="navbar">
+<div class="navbar" aria-label="Barra de navegación">
     <div class="logo">
-        <a href="#"><img src="images/parkingnow.png" alt="PARKINGNOW"></a>
+        <a href="#" aria-label="Ir a la página de inicio"><img src="images/parkingnow.png" alt="PARKINGNOW"></a>
     </div>
     <div>
-        <a href="index.html" id="toolbarHome">Inicio</a>
-        <a href="Caracteristicas.html" id="toolbarFeatures">Características</a>
-        <a href="#" id="toolbarReserveSpace">Reservar Espacio</a>
-        <a href="About.html" id="toolbarContactUs">Contáctanos</a>
+        <a href="index.html" id="toolbarHome" aria-label="Ir a la página de inicio">Inicio</a>
+        <a href="Caracteristicas.html" id="toolbarFeatures" aria-label="Ir a la página de características">Características</a>
+        <a href="#" id="toolbarReserveSpace" aria-label="Ir a la página de reserva de espacio">Reservar Espacio</a>
+        <a href="About.html" id="toolbarContactUs" aria-label="Ir a la página de contacto">Contáctanos</a>
     </div>
     <!-- Language Switcher Button -->
     <div>
-        <button id="languageSwitcher" class="btn grey darken-3 white-text" style="margin-left: 15px;">English</button>
+        <button id="languageSwitcher" class="btn grey darken-3 white-text" style="margin-left: 15px;" aria-label="Cambiar idioma">English</button>
     </div>
 </div>
 
 <!-- About Us Section -->
-<section class="locations-section">
-    <h1 id="aboutTitle">Nuestro Equipo</h1>
+<section class="locations-section" aria-labelledby="aboutTitle">
+    <h1 id="aboutTitle" aria-label="Título sección sobre nosotros">Nuestro Equipo</h1>
 
     <!-- Team Members -->
-    <div class="locations-grid mdl-grid" aria-label="Team members">
+    <div class="locations-grid mdl-grid" aria-label="Miembros del equipo">
         <div class="mdl-cell mdl-cell--3-col">
             <div class="mdl-card mdl-shadow--2dp" style="width: 100%;">
                 <div class="mdl-card__media">
-                    <img src="images/Diego.jpg" alt="Diego Soto" style="width: 100%;">
+                    <img src="images/Diego.jpg" alt="Diego Soto" style="width: 100%;" aria-label="Foto de Diego Soto">
                 </div>
                 <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text" id="teamMember1Name">Diego Ulises Soto Quispe</h2>
@@ -61,7 +61,7 @@
         <div class="mdl-cell mdl-cell--3-col">
             <div class="mdl-card mdl-shadow--2dp" style="width: 100%;">
                 <div class="mdl-card__media">
-                    <img src="images/javier.jpeg" alt="Javier Ramos" style="width: 100%;">
+                    <img src="images/javier.jpeg" alt="Javier Ramos" style="width: 100%;" aria-label="Foto de Javier Ramos">
                 </div>
                 <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text" id="teamMember2Name">Javier Aramis Ramos Huamanchumo</h2>
@@ -74,7 +74,7 @@
         <div class="mdl-cell mdl-cell--3-col">
             <div class="mdl-card mdl-shadow--2dp" style="width: 100%;">
                 <div class="mdl-card__media">
-                    <img src="images/Mateo.jpeg" alt="Mateo Loechle" style="width: 100%;">
+                    <img src="images/Mateo.jpeg" alt="Mateo Loechle" style="width: 100%;" aria-label="Foto de Mateo Loechle">
                 </div>
                 <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text" id="teamMember3Name">Mateo Italo Loechle Arias</h2>
@@ -86,11 +86,11 @@
         </div>
     </div>
 
-    <div class="locations-grid mdl-grid" aria-label="Additional Team members">
+    <div class="locations-grid mdl-grid" aria-label="Miembros adicionales del equipo">
         <div class="mdl-cell mdl-cell--3-col">
             <div class="mdl-card mdl-shadow--2dp" style="width: 100%;">
                 <div class="mdl-card__media">
-                    <img src="images/Omar.jpeg" alt="Omar Rivera" style="width: 100%;">
+                    <img src="images/Omar.jpeg" alt="Omar Rivera" style="width: 100%;" aria-label="Foto de Omar Rivera">
                 </div>
                 <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text" id="teamMember4Name">Omar Harold Rivera Ticllacuri</h2>
@@ -103,7 +103,7 @@
         <div class="mdl-cell mdl-cell--3-col">
             <div class="mdl-card mdl-shadow--2dp" style="width: 100%;">
                 <div class="mdl-card__media">
-                    <img src="images/Samuel.jpeg" alt="Samuel Elias Molina Asencios" style="width: 100%;">
+                    <img src="images/Samuel.jpeg" alt="Samuel Elias Molina Asencios" style="width: 100%;" aria-label="Foto de Samuel Elias Molina Asencios">
                 </div>
                 <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text" id="teamMember5Name">Samuel Elias Molina Asencios</h2>
@@ -116,7 +116,7 @@
         <div class="mdl-cell mdl-cell--3-col">
             <div class="mdl-card mdl-shadow--2dp" style="width: 100%;">
                 <div class="mdl-card__media">
-                    <img src="images/Rodrigo.png" alt="Rodrigo Liberato Saldaña" style="width: 100%;">
+                    <img src="images/Rodrigo.png" alt="Rodrigo Liberato Saldaña" style="width: 100%;" aria-label="Foto de Rodrigo Liberato Saldaña">
                 </div>
                 <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text" id="teamMember6Name">Rodrigo Liberato Saldaña</h2>
@@ -131,36 +131,36 @@
 
 <!-- Contact Us Section -->
 <section class="contact-section" id="contact" aria-labelledby="contactTitle">
-    <h2 id="contactTitle">Contáctanos</h2>
-    <form class="contact-form" aria-label="Contact form" method="post">
+    <h2 id="contactTitle" aria-label="Título de contacto">Contáctanos</h2>
+    <form class="contact-form" aria-label="Formulario de contacto" method="post">
         <div class="form-group">
-            <label for="name">Nombre</label>
+            <label for="name" aria-label="Campo de nombre">Nombre</label>
             <input type="text" id="name" name="name" placeholder="Tu nombre" required aria-required="true">
         </div>
         <div class="form-group">
-            <label for="email">Dirección de Correo Electrónico</label>
+            <label for="email" aria-label="Campo de correo electrónico">Dirección de Correo Electrónico</label>
             <input type="email" id="email" name="email" placeholder="Tu correo" required aria-required="true">
         </div>
         <div class="form-group">
-            <label for="message">Mensaje</label>
+            <label for="message" aria-label="Campo de mensaje">Mensaje</label>
             <textarea id="message" name="message" placeholder="Escribe tu mensaje" required aria-required="true"></textarea>
         </div>
-        <button type="submit" class="submit-btn" aria-label="Enviar Mensaje">Enviar Mensaje</button>
+        <button type="submit" class="submit-btn" aria-label="Enviar mensaje">Enviar Mensaje</button>
     </form>
 </section>
 
 <!-- Footer -->
-<footer class="footer-section" aria-label="Footer">
+<footer class="footer-section" aria-label="Pie de página">
     <div class="footer-content">
         <div class="footer-logo">
-            <img src="images/parkingnow.png" alt="PARKINGNOW logo">
+            <img src="images/parkingnow.png" alt="PARKINGNOW logo" aria-label="Logo de PARKINGNOW">
         </div>
         <div class="footer-menu">
-            <a href="About.html" class="hover" id="footerAbout">Acerca de</a>
-            <a href="Caracteristicas.html" class="hover" id="footerFeatures">Características</a>
+            <a href="About.html" class="hover" id="footerAbout" aria-label="Ir a la página de acerca de">Acerca de</a>
+            <a href="Caracteristicas.html" class="hover" id="footerFeatures" aria-label="Ir a la página de características">Características</a>
         </div>
     </div>
-    <div class="footer-bottom" aria-label="Copyright Information" id="footerCopyright">
+    <div class="footer-bottom" aria-label="Información de derechos de autor" id="footerCopyright">
         &copy; 2024 PARKINGNOW. Todos los derechos reservados.
     </div>
 </footer>
